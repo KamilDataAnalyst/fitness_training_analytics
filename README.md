@@ -1,10 +1,34 @@
 # 🏋️ Fitness Data Analysis
 
+## 📝 Project Overview
+
 This is a data analysis project based on my personal training data from the Gymlify app.
 
 The dataset covers approximately 7–10 months of training history, depending on the exercise being analyzed. The main goal was to analyze strength progression in weighted Pull-ups and Dips, compare changes over time, and calculate additional performance metrics.
 
 The project resulted in an interactive Power BI dashboard presenting the analysis and key insights.
+
+## 📊 Dashboard Preview
+
+The final Power BI dashboard analyzes strength progression, training volume, and estimated 1RM for weighted Pull-ups and Dips.
+
+![Power BI Dashboard Demo](Screenshots/dashboard_demo.gif) GIF SOON!
+
+The report includes interactive bookmarks for switching between Pull-ups and Dips, while tooltips provide additional details at different levels of analysis. The Pull-ups screenshot below shows several tooltips in use.
+
+<details>
+<summary>View Pull-ups Dashboard</summary>
+
+<img width="1466" height="815" alt="image" src="https://github.com/user-attachments/assets/dfc324bd-a362-41ce-9f4f-43ead7f26766" />
+
+</details>
+
+<details>
+<summary>View Dips Dashboard</summary>
+
+![Dips Dashboard](Screenshots/dashboard_dips.png)
+
+</details>
 
 ## 🎯 Project Goal
 
