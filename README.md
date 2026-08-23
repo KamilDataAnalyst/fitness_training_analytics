@@ -20,3 +20,9 @@ I focused on strength progression, changes in estimated 1RM, and monthly trainin
 | **SQL Server** | Cleaned and transformed the data, built the Star Schema, and created analytical views for Power BI.                         |
 | **DAX**                | Created the date table and analytical measures, including estimated 1RM, KPI metrics, and virtual filtering with `TREATAS`. |
 | **Power BI**           | Built an interactive and easy-to-understand dashboard for analyzing the training data.                                      |
+
+## 🔄 Data Pipeline
+
+The process started with inspecting the raw SQLite database and extracting the required data into a staging table. The data was then cleaned and transformed in SQL Server, where I built a Star Schema and prepared analytical views.
+
+Finally, I created DAX measures and used the prepared data to build an interactive Power BI dashboard.
