@@ -26,3 +26,16 @@ I focused on strength progression, changes in estimated 1RM, and monthly trainin
 The process started with inspecting the raw SQLite database and extracting the required data into a staging table. The data was then cleaned and transformed in SQL Server, where I built a Star Schema and prepared analytical views.
 
 Finally, I created DAX measures and used the prepared data to build an interactive Power BI dashboard.
+
+## 🗄️ Data Model — Star Schema
+
+The data model was designed using a Star Schema approach. It consists of one fact table, `FactTrainingSets`, and two dimension tables: `DimTraining` and `DimExercise`.
+
+`FactTrainingSets` stores data at the individual set level, while the dimension tables provide descriptive information about training sessions and exercises.
+
+<details>
+<summary>View SQL Server Star Schema</summary>
+
+![SQL Server Data Model](Screenshots/sql_data_model.png)
+
+</details>
