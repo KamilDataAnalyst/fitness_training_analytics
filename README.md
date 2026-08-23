@@ -11,3 +11,12 @@ The project resulted in an interactive Power BI dashboard presenting the analysi
 The main goal of the project was to analyze how weighted Pull-ups and Dips progressed over time.
 
 I focused on strength progression, changes in estimated 1RM, and monthly training volume. I also compared monthly training volume, the number of training sessions, and average volume per session.
+
+## 🛠️ Tools & Technologies
+
+| Tool                   | Usage                                                                                                                       |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **SQLite**             | Inspected the raw `.sqlite3` database and extracted key columns into a staging table.                                       |
+| **SQL Server** | Cleaned and transformed the data, built the Star Schema, and created analytical views for Power BI.                         |
+| **DAX**                | Created the date table and analytical measures, including estimated 1RM, KPI metrics, and virtual filtering with `TREATAS`. |
+| **Power BI**           | Built an interactive and easy-to-understand dashboard for analyzing the training data.                                      |
