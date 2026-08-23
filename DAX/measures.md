@@ -1,4 +1,4 @@
-# DAX
+# DAX 🧮 
 
 This file contains the calculated table, calculated column and DAX measures used in the Power BI report.
 
