@@ -63,3 +63,25 @@ The data model was designed using a Star Schema approach. It consists of one fac
 ![SQL Server Data Model](Screenshots/sql_data_model.png)
 
 </details>
+
+## 🧹 Data Preparation & Analytical Layer
+
+After building the data model, I prepared an analytical layer in SQL Server. I cleaned and standardized the data and created two analytical views which were later used in Power BI.
+
+- `vw_BestSetProgression` — prepares data for weighted strength progression analysis.
+- `vw_MonthlyTrainingVolume` — aggregates monthly training volume and the number of training sessions.
+
+The screenshots below show selected fragments of the analytical views.
+
+<details>
+<summary>View Analytical Views</summary>
+
+### Strength Progression
+
+![Strength Progression View](Screenshots/view_strength_progress_preview.png)
+
+### Monthly Training Volume
+
+![Monthly Training Volume View](Screenshots/view_monthly_volume_preview.png)
+
+</details>
