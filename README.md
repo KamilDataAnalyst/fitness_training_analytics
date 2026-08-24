@@ -12,7 +12,7 @@ The project resulted in an interactive Power BI dashboard presenting the analysi
 
 The final Power BI dashboard analyzes strength progression, training volume, and estimated 1RM for weighted Pull-ups and Dips.
 
-![Power BI Dashboard Demo](Screenshots/dashboard_demo.gif) GIF SOON!
+![Power BI Dashboard Demo](Screenshots/TrainingDashboard.gif)
 
 The report includes interactive bookmarks for switching between Pull-ups and Dips, while tooltips provide additional details at different levels of analysis. The Pull-ups screenshot below shows several tooltips in use.
 
