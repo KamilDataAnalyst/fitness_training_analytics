@@ -57,10 +57,19 @@ The data model was designed using a Star Schema approach. It consists of one fac
 
 `FactTrainingSets` stores data at the individual set level, while the dimension tables provide descriptive information about training sessions and exercises.
 
+The Power BI model extends the SQL Server model by including the analytical views and the `DimDate` table used for time-based analysis.
+
 <details>
 <summary>View SQL Server Star Schema</summary>
 
 ![SQL Server Data Model](Screenshots/sql_data_model.png)
+
+</details>
+
+<details>
+<summary>View Power BI Data Model</summary>
+
+![Power BI Data Model](Screenshots/powerbi_data_model.png)
 
 </details>
 
