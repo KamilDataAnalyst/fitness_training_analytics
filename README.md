@@ -91,3 +91,17 @@ The screenshots below show selected fragments of the analytical views.
 In Power BI, I used DAX to create a date table and prepare the measures needed for the analysis. The measures include, among other things, estimated 1RM based on the Epley formula, best sets used in KPI cards, average volume per session, and virtual filtering of monthly data using `TREATAS`.
 
 The full list of measures with short descriptions is available in the [DAX measures documentation](DAX/measures.md).
+
+## 💡 Key Insights
+
+### Strength Progression
+
+Despite some fluctuations between sessions, weighted strength showed an overall upward trend.
+
+### Volume Efficiency
+
+Monthly volume was lower when fewer training sessions were completed, but the average volume per session increased over time.
+
+### Different Progression Patterns
+
+Pull-ups were characterized by a more gradual strength progression, while Dips showed more variation between sessions.
