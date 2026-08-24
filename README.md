@@ -85,3 +85,9 @@ The screenshots below show selected fragments of the analytical views.
 ![Monthly Training Volume View](Screenshots/view_monthly_volume_preview.png)
 
 </details>
+
+## 🧮 DAX & Measures
+
+In Power BI, I used DAX to create a date table and prepare the measures needed for the analysis. The measures include, among other things, estimated 1RM based on the Epley formula, best sets used in KPI cards, average volume per session, and virtual filtering of monthly data using `TREATAS`.
+
+The full list of measures with short descriptions is available in the [DAX measures documentation](DAX/measures.md).
